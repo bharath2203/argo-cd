@@ -166,7 +166,7 @@ func SetAppSpecOptions(flags *pflag.FlagSet, spec *argoappv1.ApplicationSpec, ap
 			spec.Project = appOpts.project
 		case "sync-policy":
 			switch appOpts.syncPolicy {
-			case "none":
+			case "none", "manual":
 				if spec.SyncPolicy != nil {
 					spec.SyncPolicy.Automated = nil
 				}

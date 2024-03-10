@@ -186,7 +186,7 @@ URL:                https://10.97.164.88/applications/guestbook
 Repo:               https://github.com/argoproj/argocd-example-apps.git
 Target:
 Path:               guestbook
-Sync Policy:        <none>
+Sync Policy:        Manual
 Sync Status:        OutOfSync from  (1ff8a67)
 Health Status:      Missing
 
